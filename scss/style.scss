@@ -32,19 +32,20 @@ html {
 	// overflow-x: hidden;
 }
 body {
-	font-family: $font-primary;
-	background: $white;
-	font-size: 17px;
-	line-height: 1.8;
-	font-weight: 400;
-	color: lighten($black,60%);
-	&.menu-show {
-		overflow: hidden;
-		position: fixed;
-		height: 100%;
-		width: 100%;
-	}
+    font-family: $font-primary;
+    background: $white;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgba(109, 136, 130, 1); /* Updated color value */
+    &.menu-show {
+        overflow: hidden;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
 }
+
 a {
 	transition: .3s all ease;
 	color: $primary;
