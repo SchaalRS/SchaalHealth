@@ -8389,8 +8389,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #207dff;
-    border: 1px solid #207dff !important;
+    background: #6D8882;
+    border: 1px solid #6D8882 !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #207dff;
@@ -8462,7 +8462,7 @@ h1, h2, h3, h4, h5,
   background-position: center center;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  background: #207dff; }
+  background: #6D8882; }
   .ftco-intro .overlay {
     position: absolute;
     top: 0;
@@ -8480,7 +8480,7 @@ h1, h2, h3, h4, h5,
     font-size: 50px;
     font-weight: 800; }
     .ftco-intro h2 span {
-      background: #207dff; }
+      background: #6D8882; }
 
 .ftco-facts {
   padding: 8em 0;
@@ -8540,7 +8540,7 @@ h1, h2, h3, h4, h5,
   .appointment-wrap h3 {
     font-size: 16px;
     margin-bottom: 30px;
-    color: #207dff;
+    color: #6D8882;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600; }
@@ -8916,9 +8916,9 @@ textarea.form-control {
   font-size: 44px;
   font-weight: 700; }
   .heading-section h2 span {
-    color: #207dff; }
+    color: #6D8882; }
   .heading-section h2 span.number {
-    color: #207dff; }
+    color: #6D8882; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
