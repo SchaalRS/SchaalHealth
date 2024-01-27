@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #698882;
+  --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -55,14 +55,12 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: rgba(109, 136, 130, 1); /* Updated color value */
+  color: #212529;
   text-align: left;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 [tabindex="-1"]:focus {
-  outline: 0 !important;
-}
+  outline: 0 !important; }
 
 hr {
   -webkit-box-sizing: content-box;
@@ -1368,33 +1366,34 @@ pre {
 .table-hover tbody tr:hover {
   background-color: rgba(0, 0, 0, 0.075); }
 
-.table-primary,
+.table-
+,
 .table-primary > th,
 .table-primary > td {
-  background-color: #698882; }
+  background-color: #b8daff; }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #698882; }
+  border-color: #7abaff; }
 
 .table-hover .table-primary:hover {
   background-color: #9fcdff; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #698882; }
+    background-color: #9fcdff; }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #698882; }
+  background-color: #d6d8db; }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #698882; }
+  border-color: #b3b7bb; }
 
 .table-hover .table-secondary:hover {
   background-color: #c8cbcf; }
@@ -8035,7 +8034,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   z-index: 3;
   background: black;
-  background: #6D8882;
+  background: #207dff;
   color: #fff;
   font-size: 14px; }
   .top .register-link {
@@ -8326,7 +8325,7 @@ h1, h2, h3, h4, h5,
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #6D8882;
+  color: #207dff;
   display: inline-block;
   margin-bottom: 20px;
   font-weight: 600; }
@@ -8389,8 +8388,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #6D8882;
-    border: 1px solid #6D8882 !important;
+    background: #207dff;
+    border: 1px solid #207dff !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #207dff;
@@ -8462,7 +8461,7 @@ h1, h2, h3, h4, h5,
   background-position: center center;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  background: #6D8882; }
+  background: #207dff; }
   .ftco-intro .overlay {
     position: absolute;
     top: 0;
@@ -8480,7 +8479,7 @@ h1, h2, h3, h4, h5,
     font-size: 50px;
     font-weight: 800; }
     .ftco-intro h2 span {
-      background: #6D8882; }
+      background: #207dff; }
 
 .ftco-facts {
   padding: 8em 0;
@@ -8540,7 +8539,7 @@ h1, h2, h3, h4, h5,
   .appointment-wrap h3 {
     font-size: 16px;
     margin-bottom: 30px;
-    color: #6D8882;
+    color: #207dff;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600; }
@@ -8916,9 +8915,9 @@ textarea.form-control {
   font-size: 44px;
   font-weight: 700; }
   .heading-section h2 span {
-    color: #6D8882; }
+    color: #207dff; }
   .heading-section h2 span.number {
-    color: #6D8882; }
+    color: #207dff; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
       font-size: 28px; } }
