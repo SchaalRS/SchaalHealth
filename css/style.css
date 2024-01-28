@@ -1963,7 +1963,7 @@ textarea.form-control {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
 
 .custom-navbar {
-    width: 100%; /* or any other value you want */
+    width: 10%; /* or any other value you want */
 }
 
 .form-inline {
